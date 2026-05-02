@@ -1,3 +1,6 @@
+Live Demo
+https://sea-level-predictor-bxha3gfvjlbswtbgqyztzp.streamlit.app/
+
 # 🌊 Sea Level Predictor
 
 This project analyzes sea level trends and uses linear regression to **predict future sea levels** based on historical data from the U.S. Environmental Protection Agency (EPA).
