@@ -1,59 +1,93 @@
-Live Demo
-https://sea-level-predictor-bxha3gfvjlbswtbgqyztzp.streamlit.app/
+🌊 Sea Level Predictor
 
-# 🌊 Sea Level Predictor
+A data visualization and prediction app that analyzes historical sea level data and forecasts future sea levels using linear regression.
 
-This project analyzes sea level trends and uses linear regression to **predict future sea levels** based on historical data from the U.S. Environmental Protection Agency (EPA).
+🚀 Live Demo
 
+👉(https://sea-level-predictor-bxha3gfvjlbswtbgqyztzp.streamlit.app/)
+
+***
+
+📌 Features
+---
+* 📂 Upload your own sea level dataset (CSV)
+* 📊 Interactive dataset preview
+* 📈 Scatter plot of historical sea levels
+* 🔴 Linear regression (full dataset trend)
+* 🟢 Linear regression (recent trend from 2000)
+* 🔮 Future sea level prediction (slider-based)
+* 🎯 Clean and interactive Streamlit UI
+
+***
+
+🖼️ Screenshots
+---
+* 📊 Dataset Preview
+* 📈 Trend Visualization
+* 🔮 Future Prediction
+
+***
+
+🛠️ Tech Stack
+---
+* Python
+* Streamlit
+* Pandas
+* Matplotlib
+* SciPy (Linear Regression)
+
+***
+
+⚙️ Installation & Setup
+---
+# Clone the repository
+git clone https://github.com/AlamgirKhan48692/sea-level-predictor.git
+
+# Navigate to project folder
+cd sea-level-predictor
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
+
+***
+
+📊 How It Works
+---
+* Upload a CSV dataset (e.g., epa-sea-level.csv)
+* The app:
+* Cleans the data
+* Plots historical sea levels
+* Applies linear regression
+* Predicts future sea levels using:
+* Full dataset trend
+* Recent trend (after 2000)
+
+***
+
+📈 Example Insights
 ---
 
-## 📁 Files in this Repository
+* Sea level shows a consistent upward trend
+* Recent years indicate faster acceleration
+* Future projections suggest continued rise
 
-- `Sea_Level_Predictor.py`: Contains the function to generate the sea level plot with regression lines.
-- `main.py`: Runs the predictor script to generate the visualization.
-- `epa-sea-level.csv`: Historical global sea level data from the EPA.
-- `sea_level_plot.png`: Output plot showing past data and future sea level predictions.
-- `test_module.py`: Unit tests to validate plot generation and regression logic.
+***
 
+⚠️ Disclaimer
 ---
+* This project is for educational and visualization purposes only
+* Predictions are based on simple linear regression
+* Not intended for scientific or policy decisions
 
-## 📈 Features
+***
 
-- Uses **scatter plot** to show historical sea level rise.
-- Fits two **linear regression lines**:
-  - One using all available data.
-  - One using data from the year 2000 onward.
-- Predicts sea level rise **through the year 2050**.
-
+👨‍💻 Author
 ---
+Alamgir Khan
 
-## 📦 Requirements
-
-This project uses the following Python libraries:
-
-```bash
-pip install pandas matplotlib scipy
-
-
-▶️ How to Run
-To generate the sea level prediction plot:
-
-bash
-Copy
-Edit
-python main.py
-This will output and save the plot as sea_level_plot.png.
-
-
-✅ Testing
-To run unit tests:
-
-bash
-Copy
-Edit
-python -m unittest test_module.py
-
-
-
-📬 Contact
-For questions or contributions, feel free to open an issue or fork the repository.
+🌐 GitHub:
+---
+https://github.com/AlamgirKhan48692
