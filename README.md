@@ -20,11 +20,22 @@ A data visualization and prediction app that analyzes historical sea level data 
 
 ***
 
-🖼️ Screenshots
+## 🖼️ Screenshots
+
 ---
-* 📊 Dataset Preview
-* 📈 Trend Visualization
-* 🔮 Future Prediction
+
+### 📊 Dataset Preview
+![Dataset Preview](Screenshots/preview.png)
+
+---
+
+### 📈 Trend Visualization
+![Trend Visualization](Screenshots/trend.png)
+
+---
+
+### 🔮 Future Prediction
+![Future Prediction](Screenshots/prediction.png)
 
 ***
 
