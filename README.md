@@ -1,9 +1,11 @@
 🌊 Sea Level Predictor
-
+---
 A data visualization and prediction app that analyzes historical sea level data and forecasts future sea levels using linear regression.
 
-🚀 Live Demo
+***
 
+🚀 Live Demo
+---
 👉(https://sea-level-predictor-bxha3gfvjlbswtbgqyztzp.streamlit.app/)
 
 ***
